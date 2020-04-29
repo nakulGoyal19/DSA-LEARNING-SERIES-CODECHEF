@@ -1,2 +1,7 @@
 # DSA-LEARNING-SERIES-CODECHEF
-DSA-LEARNING-SERIES
+
+**FILE-NAME** AS :
+    
+   >ProblemCode-SolutionLaguage
+   
+   `Eg : FLOW007-Java`
