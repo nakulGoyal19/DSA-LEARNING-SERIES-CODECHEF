@@ -17,15 +17,9 @@ int main() {
 	    cin>>shots;
 	    for(int i=0;i<shots.length();i++){
 	        if(i%2==0){
-	            if(shots[i]=='0')
-	                c1+=0;
-	            else
-	                c1+=1;
+	            c1+= (int)shots[i]-(int)('0');
 	        }else{
-	            if(shots[i]=='0')
-	                c2+=0;
-	            else
-	                c2+=1;
+	            c2+= (int)shots[i]-(int)('0');
 	        }
 	        int temp = (shots.length()-(i+1))%2==0?(shots.length()-(i+1))/2:(shots.length()-(i+1))/2+1;
 	        if((c1>c2 && (c1-c2)>temp)  || (c1<c2 && (c2-c1)>(((shots.length())-(i+1))/2))){
